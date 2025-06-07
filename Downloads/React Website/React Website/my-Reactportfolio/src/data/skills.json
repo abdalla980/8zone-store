@@ -1,0 +1,26 @@
+[
+  {
+    "title": "React",
+    "imageSrc":   "React.png"
+  },
+  {
+    "title": "TypeScript",
+    "imageSrc":   "icons8-typescript-48.png"
+  },
+  {
+  "title": "JavaScript",
+  "imageSrc":   "icons8-javascript-48.png"
+},
+  {
+    "title": "HTML",
+    "imageSrc":   "html.png"
+  },
+  {
+    "title": "Css",
+    "imageSrc":   "css.png"
+  },
+  {
+    "title": "Figma",
+    "imageSrc":   "Figma.png"
+  }
+]

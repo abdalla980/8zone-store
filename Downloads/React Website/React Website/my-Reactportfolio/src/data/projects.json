@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Nutrition-Recipe-Finder",
+    "imageSrc": "Coding.png",
+    "skills": ["React","Typescript","Html","Css"],
+    "Description": "Nutrition Recipe Finder helps you discover tasty recipes that suit your lifestyle. Whether you're looking for plant-based dishes, gluten-free options, or just something fresh and nourishing, this tool makes it easy to explore meals that fit your preferences. Simple to use and full of inspiration, it's your companion for healthier everyday cooking",
+    "Link": "https://nutrition-recipe-finder-peqz.vercel.app/",
+    "GitHub": "https://github.com/abdalla980/Nutrition-Recipe-Finder"
+  },
+  {
+    "title": "Tic-Tac-Toe",
+    "imageSrc": "Coding.png",
+    "skills": ["Javascript","Html","Css"],
+    "Description":"Tic-Tac-Toe, Tired of drawing X’s and O’s all over your notebook? Now you can play the classic Tic-Tac-Toe game right on your device! Challenge a friend on the same screen, take turns, and enjoy neat, hassle-free gameplay without any mess. — just simple, fun, and better than scribbling in your copybook.",
+    "Link": "https://abdalla980.github.io/tic-tac-toe/",
+    "GitHub": "https://github.com/abdalla980/tic-tac-toe"
+  }
+]

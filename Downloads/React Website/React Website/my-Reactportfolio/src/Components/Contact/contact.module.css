@@ -1,0 +1,75 @@
+@import "/src/vars.css";
+
+.container{
+    color: var(--color-text);
+    margin-top: 120px;
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    padding: 58px 10%;
+    gap: 10px;
+
+}
+.text h2{
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 4px;
+
+}
+.text p{
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.links{
+        display: flex;
+        flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    gap: 26px;
+
+}
+.link{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    text-decoration: none;
+    background-color:var(--color-primary);
+    color: var(--color-text);
+    border-radius: 100px;
+    font-size: 30px;
+    padding: 17px 26px;
+    box-shadow:  0 0 4px rgba(0,0,0, 0.25);
+    transition: all 0.3s ease;
+}
+.link:hover{
+    transform: scale(1.05); cursor: pointer;
+}
+.link a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+
+}
+
+@media screen and (max-width: 830px){
+    .container{
+flex-direction: column;
+        gap: 23px;
+
+    }
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.links{
+    align-items: center;
+
+}
+}

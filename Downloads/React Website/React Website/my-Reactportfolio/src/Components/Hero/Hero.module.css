@@ -1,0 +1,112 @@
+@import "/src/vars.css";
+
+.container{
+position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.content{
+        display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+color: var(--color-text);
+    z-index: 1;
+    font-size: larger;
+    font-weight: bolder;
+
+}
+.title {
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 33px;
+    background: linear-gradient(
+            90deg, rgba(255, 255, 255, 1) 70%,
+            rgba(255, 255, 255, 0) 120%
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    opacity:0;
+    animation: fadeSlideUp 1s ease-out forwards;
+    animation-delay:0.5s;
+}
+@keyframes fadeSlideUp {
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.description{
+    font-size: 30px;
+    margin-bottom: 52px;
+}
+.contactButton{
+    text-decoration: none;
+    background-color:var(--color-primary);
+    color: var(--color-text);
+    border-radius: 100px;
+font-size: 30px;
+    padding: 17px 26px;
+    box-shadow:  0 0 4px rgba(0,0,0, 0.25);
+    transition: all 0.3s ease;
+}
+.contactButton:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.heroImage{
+        z-index: 1;
+        width: 70%;
+        border-radius: 50%;
+        border: 4px solid white;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        background-color: #0b2447;
+}
+
+
+
+
+.topBlur{
+    position:absolute;
+width: 50vw;
+    height: 50vw;
+    min-width: 350px;
+    top: -128px;
+    left:-10vw;
+    border-radius: 764px;
+    background: rgba(25,55,109,0.7);
+filter: blur(100px);
+    z-index: 0;
+}
+.bottomBlur{
+    position: absolute;
+    width: 70vw;
+    height: 50vw;
+    min-width: 350px;
+    min-width:250px;
+    top:246px;
+    right: -25vw;
+    border-radius: 764px;
+    background: rgba(25,55,109,0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+@media screen and (max-width: 830px) {
+    container{
+        flex-direction: column-reverse;
+    }
+    .content{
+        align-items: center;
+    }
+}
