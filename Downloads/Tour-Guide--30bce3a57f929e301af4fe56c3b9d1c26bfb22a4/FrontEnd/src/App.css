@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Candara;
+    src:
+           local("Candara"),
+            url("/Candara.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #F6F6F6;
+
+}
+.Logo{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 6px;
+    right: 16px;
+}
+
+
+.titleContainer{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}

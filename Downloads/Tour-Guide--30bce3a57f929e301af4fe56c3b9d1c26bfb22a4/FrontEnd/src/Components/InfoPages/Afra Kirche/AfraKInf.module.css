@@ -1,0 +1,52 @@
+.Container{
+    min-height: 100vh;
+    font-family: "Candara";
+    background: transparent linear-gradient(beige, #fae3c7);
+}
+.backIcon{
+    padding-left: 1rem;
+    padding-top:1rem ;
+}
+.Header{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.header1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.First{
+    margin-left: 3px;
+}
+.second{
+    margin-left: 10px;
+}
+.third{
+    margin-left: 10px;
+}
+.fourth{
+    margin-left: 10px;
+}
+.fifth{
+    margin-left: 10px;
+}
+.third p {
+    padding-bottom: 15px ;
+}
+.cardContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.P{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}

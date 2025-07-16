@@ -1,0 +1,26 @@
+.Logo{
+    width:50px;
+    height: 50px;
+    top: 13px;
+    margin-top: 10px;
+
+}
+.buttons{
+    margin-top: 50px;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+.backgroundWrapper {
+    background: linear-gradient(
+            rgb(214, 173, 122),
+            rgb(239, 239, 239)
+    )
+
+}
+.titleStyle{
+    padding: 10px;
+}

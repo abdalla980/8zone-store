@@ -1,0 +1,90 @@
+.Container{
+background: linear-gradient(#e5f9fd, #fde3c0);
+}
+
+.boatPic {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.BoatImage{
+    border: 0.2px solid #000000;
+border-radius: 5px;
+    height: 16rem;
+    width: 24rem;
+}
+.back{
+    position: absolute;
+    top: 1.3rem;
+    left: 1rem;
+}
+
+.text1{
+    display: flex;
+    padding: 10px;
+    margin-bottom: 30px;
+
+}
+.borderthing{
+    border: solid #000000;
+    border-width: 0.2px;
+    margin-left: 1rem;
+    margin-top: 3rem;
+    width: 24rem;
+    height: 35rem;
+    border-radius: 4px;
+}
+.boatIcon{
+    margin-top: 60px;
+    margin-right: 8px;
+    height: 40px;
+}
+
+.text2{
+    display: flex;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.CashIcon{
+    margin-top: 50px;
+    margin-left: 4px;
+    height: 40px;
+}
+.text3{
+    display: flex;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.PhoneIcon{
+    margin-top: 30px;
+margin-left: 83px;
+    height: 30px;
+}
+.button{
+    height: 3rem;
+    margin-bottom: 1.5rem;
+    margin-right: 0.8rem;
+    width: 10rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.4rem;
+    background-color: #bd9056;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    align-self: flex-start;
+    font-weight: bold;
+}
+.heart{
+    height:25px;
+    width: 25px;
+margin-top: 0.8rem;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: right;
+    margin-top: 25px;
+    gap: 1rem;
+}

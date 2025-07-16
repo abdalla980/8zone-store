@@ -1,0 +1,8 @@
+(function () {
+ "use strict";
+jQuery(document).ready(function(){
+	//Add Class Js to html
+	jQuery('html').addClass('js');
+});
+
+})(jQuery);

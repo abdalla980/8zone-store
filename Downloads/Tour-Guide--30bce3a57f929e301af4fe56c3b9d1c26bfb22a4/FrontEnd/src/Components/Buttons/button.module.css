@@ -1,0 +1,18 @@
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    width: 350px;
+    height: 70px;
+    font-family: "Candara";
+    font-weight: 550;
+    cursor: pointer;
+    font-size: 30px;
+    border-radius: 15px;
+    border-style: none;
+    box-shadow: 10px 5px 5px #b89466;
+    color: black;
+}

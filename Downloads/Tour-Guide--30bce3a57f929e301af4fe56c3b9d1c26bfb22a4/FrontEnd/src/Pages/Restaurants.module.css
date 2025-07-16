@@ -1,0 +1,9 @@
+.titleContainer{
+    display: flex;
+    justify-content: center;
+}
+.back{
+    position: absolute;
+    top: 1.3rem;
+    left: 1rem;
+}

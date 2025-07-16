@@ -1,0 +1,70 @@
+.Container{
+    background: linear-gradient(
+            rgb(214, 173, 122),
+            rgb(239, 239, 239)
+    )
+}
+.topBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.back{
+    position: absolute;
+    top: 1.3rem;
+    left: 1rem;
+}
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.cardHeader{
+    font-size: 20px;
+    font-family: Candara;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 17rem;
+    margin-top:150px;
+}
+.Favs{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 30px;
+    font-size: 35px;
+}
+.left{
+    justify-content: left;
+}
+.left p {
+    margin-bottom: 20px;
+}
+.right{
+    justify-content: right;
+}
+.right p{
+    margin-bottom: 20px;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+}
+.button {
+    padding: 0.5rem 1rem;
+    background-color: #c88e4f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-family: Candara;
+    font-size:2rem;
+    width: 23rem;
+}
