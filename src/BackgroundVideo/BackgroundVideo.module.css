@@ -1,0 +1,39 @@
+.all{
+    position: relative;
+}
+.Content{
+    position: absolute;
+    top: 20%;
+    padding-left: 1rem;
+    font-family: Poppins;
+    color: white;
+    font-size: 2rem;
+}
+.subtitle{
+}
+.button{
+    margin-top: 2rem;
+    border-radius: 20px;
+    background-color: darkgreen;
+    color: white;
+    font-family: Poppins;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    width: 15rem;
+    border-style: none;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+}
+
+.BackgroundVid{
+    width: 100%;
+    margin-top: 1rem;
+    height: auto;
+}
+.subfooter{
+    display: flex;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    gap: 13rem;
+    justify-content: center;
+}
+

@@ -1,0 +1,57 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #dcd9d9;
+    padding: 2rem 3rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.left h1 {
+    color: black;
+    font-family: "Poppins";
+    margin: 0 0 0.5rem 0;
+}
+
+.left p {
+    color: black;
+    font-family: "Poppins";
+    margin: 0;
+    padding-left: 1rem;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.right h3 {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+    font-family: Poppins;
+    color: black;
+}
+
+.icons {
+    display: flex;
+}
+
+.insta {
+    width: 32px;
+    height: 32px;
+    padding-right: 0rem;
+    margin-right: 2rem;
+}
+.tiktok{
+    padding-right: 3rem;
+    width: 32px;
+    height: 32px;
+    margin-right: 2rem;
+}
