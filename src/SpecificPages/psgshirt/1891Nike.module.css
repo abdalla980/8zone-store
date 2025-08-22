@@ -87,7 +87,6 @@
 .carousel {
     display: flex;
     align-items: center;
-    gap: 1rem;
 }
 
 .arrow {
@@ -111,12 +110,15 @@
     }
 
     .shirt {
-        width: 80%;
+        width: 70%;
         height: auto;
     }
 
     .buttonshard button {
         width: 80%;
         margin-bottom: 2rem;
+    }
+    .carousel{
+        margin-left: -2rem;
     }
 }
