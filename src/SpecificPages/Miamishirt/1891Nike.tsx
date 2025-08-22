@@ -7,7 +7,7 @@ export const Miami = () => {
     const [selectedSize, setSelectedSize] = useState("");
     const [currentImage, setCurrentImage] = useState(0);
 
-    const productTitle = "Miami Shirt";
+    const productTitle = "Miami E-special kit 24-25";
     const phoneNumber = "+33 6 86 48 07 87";
 
     const images = [

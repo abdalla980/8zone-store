@@ -7,7 +7,7 @@ export const Yamal = () => {
     const [selectedSize, setSelectedSize] = useState("");
     const [currentImage, setCurrentImage] = useState(0);
 
-    const productTitle = "Lamine Yamal Special";
+    const productTitle = "Lamine Yamal Special kit";
     const phoneNumber = "+33 6 86 48 07 87";
 
     const images = [

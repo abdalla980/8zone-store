@@ -7,7 +7,7 @@ export const PortugalSpecial = () => {
     const [selectedSize, setSelectedSize] = useState("");
     const [currentImage, setCurrentImage] = useState(0);
 
-    const productTitle = "Portugal Special";
+    const productTitle = "Portugal Special Edition ";
     const phoneNumber = "+33 6 86 48 07 87";
 
     const images = [

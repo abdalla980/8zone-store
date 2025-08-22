@@ -7,7 +7,7 @@ export const Santos = () => {
     const [selectedSize, setSelectedSize] = useState("");
     const [currentImage, setCurrentImage] = useState(0);
 
-    const productTitle = "Santos Shirt";
+    const productTitle = "Santos Away Fan Edition";
     const phoneNumber = "+33 6 86 48 07 87";
 
     const images = [

@@ -7,7 +7,7 @@ export const PinkPalestine = () => {
     const [selectedSize, setSelectedSize] = useState("");
     const [currentImage, setCurrentImage] = useState(0);
 
-    const productTitle = "Pink Palestine Shirt";
+    const productTitle = "Maillot Palestine Pink 24-25";
     const phoneNumber = "+33 6 86 48 07 87";
 
     const images = [

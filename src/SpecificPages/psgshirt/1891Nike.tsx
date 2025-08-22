@@ -7,7 +7,7 @@ export const PSG = () => {
     const [selectedSize, setSelectedSize] = useState("");
     const [currentImage, setCurrentImage] = useState(0);
 
-    const productTitle = "PSG Shirt";
+    const productTitle = "PSG 'Paris Noir' Special";
     const phoneNumber = "+33 6 86 48 07 87";
 
     const images = [

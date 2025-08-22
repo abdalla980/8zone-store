@@ -7,7 +7,7 @@ export const Nike1891 = () => {
     const [selectedSize, setSelectedSize] = useState("");
     const [currentImage, setCurrentImage] = useState(0);
 
-    const productTitle = "1891 Nike Special Edition";
+    const productTitle = "Nike \"SmokingLirare\" Black";
     const phoneNumber = "+33 6 86 48 07 87";
 
     const images = [

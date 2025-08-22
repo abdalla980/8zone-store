@@ -7,7 +7,7 @@ export const BlackBarca = () => {
     const [selectedSize, setSelectedSize] = useState("");
     const [currentImage, setCurrentImage] = useState(0);
 
-    const productTitle = "Black Barca Shirt";
+    const productTitle = "Black & White Special Barcelona kit ";
     const phoneNumber = "+33 6 86 48 07 87";
 
     const images = [
