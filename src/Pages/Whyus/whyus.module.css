@@ -3,7 +3,7 @@
     justify-content: center;
     margin: 2rem 0;
     font-family: Poppins;
-    font-size: 2.2rem;
+    font-size: 3rem;
 }
 
 .headers {
@@ -47,6 +47,7 @@
     text-align: center;
     font-family: Poppins;
     line-height: 1.6;
+    margin-bottom: 2rem;
 }
 
 /* Responsive Styles */
@@ -70,7 +71,7 @@
 
 @media (max-width: 480px) {
     .title {
-        font-size: 1.8rem;
+        font-size: 2rem;
         margin: 1.5rem 0;
     }
 
@@ -85,5 +86,9 @@
 
     .imageItem p {
         font-size: 0.9rem;
+    }
+    .extra{
+        margin-bottom: 4rem;
+
     }
 }

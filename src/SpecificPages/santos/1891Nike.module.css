@@ -84,6 +84,24 @@
     cursor: pointer;
     border-radius: 20px;
 }
+.carousel {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.arrow {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.arrow:hover {
+    color: gray;
+}
+
 
 @media (max-width: 768px) {
     .container {

@@ -18,6 +18,7 @@
     color: black;
     font-family: "Poppins";
     margin: 0 0 0.5rem 0;
+    font-size: 1.5rem;
 }
 
 .left p {
@@ -35,9 +36,10 @@
 
 .right h3 {
     margin: 0 0 1rem 0;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-family: Poppins;
     color: black;
+
 }
 
 .icons {
@@ -45,7 +47,7 @@
 }
 
 .insta, .tiktok {
-    width: 32px;
+    width: 30px;
     height: 32px;
     margin-right: 2rem;
 }
@@ -68,6 +70,9 @@
 
     .icons {
         justify-content: center;
+    }
+    .right h3{
+        font-size: 1.5rem;
     }
 }
 

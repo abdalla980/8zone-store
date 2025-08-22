@@ -3,19 +3,19 @@ import styles from './1891Nike.module.css';
 import { Footer } from "../../Footer/Footer.tsx";
 import { useState } from "react";
 
-export const Santos = () => {
+export const Yamal = () => {
     const [selectedSize, setSelectedSize] = useState("");
     const [currentImage, setCurrentImage] = useState(0);
 
-    const productTitle = "Santos Shirt";
+    const productTitle = "Lamine Yamal Special";
     const phoneNumber = "+33 6 86 48 07 87";
 
     const images = [
-        "santos shirt.jpg",
-        "santos1.jpg",
-        "santos2.jpg",
-        "santos3.jpg",
-        "santos4.jpg",
+        "LamineYamal.jpg",
+        "yamal1.jpg",
+        "yamal2.jpg",
+        "yamal3.jpg",
+        "yamal4.jpg",
 
     ];
 

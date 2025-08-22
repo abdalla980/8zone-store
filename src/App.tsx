@@ -12,6 +12,9 @@ import {Miami} from "./SpecificPages/Miamishirt/1891Nike.tsx";
 import {PinkPalestine} from "./SpecificPages/Pinkpalestine/1891Nike.tsx";
 import {PSG} from "./SpecificPages/psgshirt/1891Nike.tsx";
 import {Santos} from "./SpecificPages/santos/1891Nike.tsx";
+import {Yamal} from "./SpecificPages/LamineYamal/1891Nike.tsx";
+import {PortugalSpecial} from "./SpecificPages/PortugalSpecial/1891Nike.tsx";
+import {Americas} from "./SpecificPages/Americas/1891Nike.tsx";
 
 export const App = () => {
     return (
@@ -29,6 +32,11 @@ export const App = () => {
             <Route path="/pink-palestine" component={PinkPalestine} />
             <Route path="/psg" component={PSG} />
             <Route path="/santos" component={Santos} />
+            <Route path="/LamineYamal" component={Yamal} />
+                <Route path="/Portugal" component={PortugalSpecial} />
+                <Route path="/Americas" component={Americas} />
+
+
         </div>
     );
 };

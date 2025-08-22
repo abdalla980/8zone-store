@@ -3,20 +3,20 @@ import styles from './1891Nike.module.css';
 import { Footer } from "../../Footer/Footer.tsx";
 import { useState } from "react";
 
-export const Santos = () => {
+export const PortugalSpecial = () => {
     const [selectedSize, setSelectedSize] = useState("");
     const [currentImage, setCurrentImage] = useState(0);
 
-    const productTitle = "Santos Shirt";
+    const productTitle = "Portugal Special";
     const phoneNumber = "+33 6 86 48 07 87";
 
     const images = [
-        "santos shirt.jpg",
-        "santos1.jpg",
-        "santos2.jpg",
-        "santos3.jpg",
-        "santos4.jpg",
-
+        "PortugalSpecial.jpg",
+        "portugal1.jpg",
+        "portugal2.jpg",
+        "portugal3.jpg",
+        "portugal4.jpg",
+        "portugal5.jpg",
     ];
 
     const handleBuyNow = () => {

@@ -1,4 +1,3 @@
-// src/pages/Whyus/Whyus.tsx
 import styles from "./whyus.module.css";
 import { Navigationbar } from "../../NavigationBar/Navigationbar.tsx";
 import { Footer } from "../../Footer/Footer.tsx";

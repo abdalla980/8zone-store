@@ -14,6 +14,11 @@ export const Jerseys = () => {
     const GotoPinkPalestine = () => setLocation("/pink-palestine");
     const GotoPSG = () => setLocation("/psg");
     const GotoSantos = () => setLocation("/santos");
+    const GotoYamal = () => setLocation("/LamineYamal");
+    const GotoPortugal = () => setLocation("/Portugal");
+    const GotoAmericas = () => setLocation("/Americas");
+
+
 
     return (
         <>
@@ -24,48 +29,63 @@ export const Jerseys = () => {
 
             <div className={styles.gridContainer}>
                 <div className={styles.one}>
-                    <img onClick={Goto1891} src="1891shirt.jpg" className={styles.oneimg} />
-                    <h2>"SmokingLirare" Black</h2>
+                    <img onClick={Goto1891} src="1891shirt.jpg" className={styles.oneimg}/>
+                    <h2>Nike "SmokingLirare" Black</h2>
                     <button className={styles.viewButton} onClick={Goto1891}>View</button>
                 </div>
                 <div className={styles.one}>
-                    <img onClick={GotoBlackBarca} src="black barca shirt .jpg" className={styles.oneimg} />
-                    <h2>Black & White Special Barcelona </h2>
+                    <img onClick={GotoBlackBarca} src="black barca shirt .jpg" className={styles.oneimg}/>
+                    <h2>Black & White Special Barcelona kit </h2>
                     <button className={styles.viewButton} onClick={GotoBlackBarca}>View</button>
                 </div>
                 <div className={styles.one}>
-                    <img onClick={GotoBlackPalestine} src="Blackpalestineshirt.jpg" className={styles.oneimg} />
+                    <img onClick={GotoBlackPalestine} src="Blackpalestineshirt.jpg" className={styles.oneimg}/>
                     <h2>Maillot Palestine Black 24-25</h2>
                     <button className={styles.viewButton} onClick={GotoBlackPalestine}>View</button>
                 </div>
                 <div className={styles.one}>
-                    <img onClick={GotoEngland} src="Englandshirt.jpg" className={styles.oneimg} />
+                    <img onClick={GotoEngland} src="Englandshirt.jpg" className={styles.oneimg}/>
                     <h2>England Black Special kit</h2>
                     <button className={styles.Englandviewbutton} onClick={GotoEngland}>View</button>
                 </div>
                 <div className={styles.one}>
-                    <img onClick={GotoMiami} src="Miamishirt.jpg" className={styles.oneimg} />
+                    <img onClick={GotoMiami} src="Miamishirt.jpg" className={styles.oneimg}/>
                     <h2>Miami E-special kit 24-25</h2>
                     <button className={styles.Englandviewbutton} onClick={GotoMiami}>View</button>
                 </div>
                 <div className={styles.one}>
-                    <img onClick={GotoPinkPalestine} src="pinkpalestineshirt.jpg" className={styles.oneimg} />
+                    <img onClick={GotoPinkPalestine} src="pinkpalestineshirt.jpg" className={styles.oneimg}/>
                     <h2>Maillot Palestine Black 24-25</h2>
                     <button className={styles.viewButton} onClick={GotoPinkPalestine}>View</button>
                 </div>
                 <div className={styles.one}>
-                    <img onClick={GotoPSG} src="psg shirt .jpg" className={styles.oneimg} />
+                    <img onClick={GotoPSG} src="psg shirt .jpg" className={styles.oneimg}/>
                     <h2>PSG 'Paris Noir' Special</h2>
                     <button className={styles.viewButton} onClick={GotoPSG}>View</button>
                 </div>
                 <div className={styles.one}>
-                    <img onClick={GotoSantos} src="santos shirt.jpg" className={styles.oneimg} />
+                    <img onClick={GotoSantos} src="santos shirt.jpg" className={styles.oneimg}/>
                     <h2>Santos Away Fan Edition</h2>
                     <button className={styles.viewButton} onClick={GotoSantos}>View</button>
                 </div>
+                <div className={styles.one}>
+                    <img onClick={GotoYamal} src={"LamineYamal.jpg"} className={styles.oneimg}/>
+                    <h2>Lamine Yamal Special kit</h2>
+                    <button className={styles.viewButton} onClick={GotoYamal}>View</button>
+                </div>
+                <div className={styles.one}>
+                    <img onClick={GotoPortugal} src={"PortugalSpecial.jpg"} className={styles.oneimg}/>
+                    <h2>Portugal Special Edition </h2>
+                    <button className={styles.viewButton} onClick={GotoPortugal}>View</button>
+                </div>
+                <div className={styles.one}>
+                    <img onClick={GotoAmericas} src={"AmericasSpecialEdition.jpg"} className={styles.oneimg}/>
+                    <h2>Americas Special Edition kit</h2>
+                    <button className={styles.viewButton} onClick={GotoAmericas}>View</button>
+                </div>
             </div>
 
-            <Footer />
+            <Footer/>
         </>
     );
 };

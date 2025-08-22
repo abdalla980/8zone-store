@@ -5,8 +5,15 @@ import { useState } from "react";
 
 export const PSG = () => {
     const [selectedSize, setSelectedSize] = useState("");
+    const [currentImage, setCurrentImage] = useState(0);
+
     const productTitle = "PSG Shirt";
-    const phoneNumber = "+971561105993";
+    const phoneNumber = "+33 6 86 48 07 87";
+
+    const images = [
+        "psg shirt .jpg",
+        "psg1.jpg"
+    ];
 
     const handleBuyNow = () => {
         if (!selectedSize) {
@@ -18,11 +25,19 @@ export const PSG = () => {
         window.open(url, "_blank");
     };
 
+    const nextImage = () => setCurrentImage((prev) => (prev + 1) % images.length);
+    const prevImage = () => setCurrentImage((prev) => (prev - 1 + images.length) % images.length);
+
     return (
         <div className={styles.pageContainer}>
             <Navigationbar />
             <div className={styles.container}>
-                <img src={"psg shirt .jpg"} className={styles.shirt} />
+                <div className={styles.carousel}>
+                    <button onClick={prevImage} className={styles.arrow}>‹</button>
+                    <img src={images[currentImage]} className={styles.shirt} />
+                    <button onClick={nextImage} className={styles.arrow}>›</button>
+                </div>
+
                 <div className={styles.right}>
                     <h1 className={styles.title}>{productTitle}</h1>
                     <h1 className={styles.price}>90dhs</h1>
@@ -30,15 +45,21 @@ export const PSG = () => {
 
                     <h2>Select Size</h2>
                     <div className={styles.sizebuttons}>
-                        {["S", "M", "L", "XL"].map((size) => (
-                            <button key={size} onClick={() => setSelectedSize(size)} className={selectedSize === size ? styles.selected : ""}>
+                        {["S", "M", "L", "XL","2XL"].map((size) => (
+                            <button
+                                key={size}
+                                onClick={() => setSelectedSize(size)}
+                                className={selectedSize === size ? styles.selected : ""}
+                            >
                                 {size}
                             </button>
                         ))}
                     </div>
 
                     <div className={styles.buttonshard}>
-                        <button onClick={handleBuyNow} className={styles.buynow}>Buy now via WhatsApp</button>
+                        <button onClick={handleBuyNow} className={styles.buynow}>
+                            Buy now via WhatsApp
+                        </button>
                     </div>
                 </div>
             </div>

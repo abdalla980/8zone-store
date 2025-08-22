@@ -3,19 +3,15 @@ import styles from './1891Nike.module.css';
 import { Footer } from "../../Footer/Footer.tsx";
 import { useState } from "react";
 
-export const Santos = () => {
+export const Americas = () => {
     const [selectedSize, setSelectedSize] = useState("");
     const [currentImage, setCurrentImage] = useState(0);
 
-    const productTitle = "Santos Shirt";
+    const productTitle = "Americas Special Edition";
     const phoneNumber = "+33 6 86 48 07 87";
 
     const images = [
-        "santos shirt.jpg",
-        "santos1.jpg",
-        "santos2.jpg",
-        "santos3.jpg",
-        "santos4.jpg",
+        "AmericasSpecialEdition.jpg",
 
     ];
 
@@ -29,8 +25,13 @@ export const Santos = () => {
         window.open(url, "_blank");
     };
 
-    const nextImage = () => setCurrentImage((prev) => (prev + 1) % images.length);
-    const prevImage = () => setCurrentImage((prev) => (prev - 1 + images.length) % images.length);
+    const nextImage = () => {
+        setCurrentImage((prev) => (prev + 1) % images.length);
+    };
+
+    const prevImage = () => {
+        setCurrentImage((prev) => (prev - 1 + images.length) % images.length);
+    };
 
     return (
         <div className={styles.pageContainer}>
@@ -49,7 +50,7 @@ export const Santos = () => {
 
                     <h2>Select Size</h2>
                     <div className={styles.sizebuttons}>
-                        {["S", "M", "L", "XL","2XL"].map((size) => (
+                        {["S", "M", "L", "XL", "2XL"].map((size) => (
                             <button
                                 key={size}
                                 onClick={() => setSelectedSize(size)}

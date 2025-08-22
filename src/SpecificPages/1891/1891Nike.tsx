@@ -5,9 +5,19 @@ import { useState } from "react";
 
 export const Nike1891 = () => {
     const [selectedSize, setSelectedSize] = useState("");
+    const [currentImage, setCurrentImage] = useState(0);
 
     const productTitle = "1891 Nike Special Edition";
-    const phoneNumber = "+971561105993";
+    const phoneNumber = "+33 6 86 48 07 87";
+
+    const images = [
+        "1891shirt.jpg",
+        "1891one.jpg",
+        "1891two.jpg",
+        "1891three.jpg",
+        "1891four.jpg",
+        "1891five.jpg",
+    ];
 
     const handleBuyNow = () => {
         if (!selectedSize) {
@@ -19,11 +29,24 @@ export const Nike1891 = () => {
         window.open(url, "_blank");
     };
 
+    const nextImage = () => {
+        setCurrentImage((prev) => (prev + 1) % images.length);
+    };
+
+    const prevImage = () => {
+        setCurrentImage((prev) => (prev - 1 + images.length) % images.length);
+    };
+
     return (
         <div className={styles.pageContainer}>
             <Navigationbar />
             <div className={styles.container}>
-                <img src={"1891shirt.jpg"} className={styles.shirt} />
+                <div className={styles.carousel}>
+                    <button onClick={prevImage} className={styles.arrow}>‹</button>
+                    <img src={images[currentImage]} className={styles.shirt} />
+                    <button onClick={nextImage} className={styles.arrow}>›</button>
+                </div>
+
                 <div className={styles.right}>
                     <h1 className={styles.title}>{productTitle}</h1>
                     <h1 className={styles.price}>90dhs</h1>
@@ -31,7 +54,7 @@ export const Nike1891 = () => {
 
                     <h2>Select Size</h2>
                     <div className={styles.sizebuttons}>
-                        {["S", "M", "L", "XL"].map((size) => (
+                        {["S", "M", "L", "XL", "2XL"].map((size) => (
                             <button
                                 key={size}
                                 onClick={() => setSelectedSize(size)}
@@ -53,4 +76,3 @@ export const Nike1891 = () => {
         </div>
     );
 };
-
