@@ -1,7 +1,6 @@
 import styles from './contact.module.css';
 import {Navigationbar} from "../NavigationBar/Navigationbar.tsx";
 import {Footer} from "../Footer/Footer.tsx";
-import {useLocation} from "wouter";
 
 export const Contact = () => {
 
