@@ -45,3 +45,11 @@ export const BlackPalestine = () => {
                     <div className={styles.buttonshard}>
                         <button onClick={handleBuyNow} className={styles.buynow}>
                             Buy now via WhatsApp
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <Footer />
+        </div>
+    );
+};
