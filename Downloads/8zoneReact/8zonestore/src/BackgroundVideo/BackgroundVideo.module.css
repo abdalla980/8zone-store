@@ -1,6 +1,7 @@
 .all{
     position: relative;
 }
+
 .Content{
     position: absolute;
     top: 20%;
@@ -9,8 +10,10 @@
     color: white;
     font-size: 2rem;
 }
+
 .subtitle{
 }
+
 .button{
     margin-top: 2rem;
     border-radius: 20px;
@@ -29,6 +32,7 @@
     margin-top: 1rem;
     height: auto;
 }
+
 .subfooter{
     display: flex;
     font-family: Poppins;
@@ -37,3 +41,33 @@
     justify-content: center;
 }
 
+@media (max-width: 768px){
+    .BackgroundVid{
+        width: 100%;
+        height: 70vh;
+        object-fit: cover;
+        margin-top: 0;
+    }
+
+    .Content{
+        top: 15%;
+        left: 32%;
+        transform: translateX(-50%);
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .button{
+        width: 70%;
+        font-size: 1.1rem;
+        padding: 0.6rem;
+    }
+
+    .subfooter{
+        gap: 1.3rem;
+        font-size: 0.9rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 0.5rem;
+    }
+}

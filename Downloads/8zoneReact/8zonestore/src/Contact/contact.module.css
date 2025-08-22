@@ -1,0 +1,30 @@
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* full viewport height */
+}
+
+.content {
+    flex: 1; /* take up remaining space so footer goes to bottom */
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+    font-family: Poppins;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images img{
+    padding-bottom:5rem;
+}

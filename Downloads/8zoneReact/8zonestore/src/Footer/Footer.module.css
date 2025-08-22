@@ -6,6 +6,7 @@
     padding: 2rem 3rem;
     width: 100%;
     box-sizing: border-box;
+    flex-shrink: 0;
 }
 
 .left {
@@ -43,15 +44,30 @@
     display: flex;
 }
 
-.insta {
-    width: 32px;
-    height: 32px;
-    padding-right: 0rem;
-    margin-right: 2rem;
-}
-.tiktok{
-    padding-right: 3rem;
+.insta, .tiktok {
     width: 32px;
     height: 32px;
     margin-right: 2rem;
 }
+
+@media (max-width: 768px) {
+    .footer {
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+        padding: 2rem 1rem;
+    }
+
+    .left p {
+        padding-left: 0;
+    }
+
+    .right {
+        align-items: center;
+    }
+
+    .icons {
+        justify-content: center;
+    }
+}
+
