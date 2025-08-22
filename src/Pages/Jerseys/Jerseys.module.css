@@ -1,16 +1,20 @@
-.title{
+.title {
     display: flex;
     justify-content: center;
-    align-items: center;
     font-family: Poppins;
     margin-top: 2rem;
+    width: 100%;
 }
+
 .gridContainer {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 items per row */
-    gap: 2rem; /* spacing between items */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    justify-items: center;
     padding: 2rem;
-    justify-items: center; /* center items horizontally */
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 .one {
@@ -20,12 +24,63 @@
 }
 
 .oneimg {
-    width: 20rem;
-    height: 20rem;
+    width: 16rem; /* smaller than before */
+    height: 16rem;
+    object-fit: cover;
 }
 
 .one h2 {
     margin-top: 1rem;
     font-family: Poppins;
     text-align: center;
+}
+
+.oneimg:hover {
+    cursor: pointer;
+}
+.viewButton {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-family: Poppins;
+    font-size: 0.9rem;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Englandviewbutton{
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-family: Poppins;
+    font-size: 0.9rem;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .gridContainer {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .oneimg {
+        width: 10rem;
+        height: 10rem;
+    }
+    .Englandviewbutton{
+        margin-top: 5rem;
+        padding: 0.5rem 1rem;
+        font-family: Poppins;
+        font-size: 0.9rem;
+        background-color: #ffffff;
+        color: #000000;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
 }
